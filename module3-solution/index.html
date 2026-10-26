@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Food, LLC — a responsive restaurant menu built with Bootstrap 3.">
+  <title>Our Menu | Food, LLC</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to menu</a>
+  <header>
+    <nav class="navbar navbar-default" aria-label="Main navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#top">Food, LLC<span class="brand-note">THE NEIGHBORHOOD TABLE</span></a>
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="mobile-menu">
+          <ul class="nav navbar-nav navbar-right visible-xs">
+            <li><a href="#chicken">Chicken</a></li>
+            <li><a href="#beef">Beef</a></li>
+            <li><a href="#sushi">Sushi</a></li>
+          </ul>
+          <p class="navbar-text navbar-right hidden-xs">Good food. Good company.</p>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main id="main-content" class="container">
+    <div class="menu-heading text-center">
+      <p class="eyebrow">FRESHLY PREPARED · SIMPLY ENJOYED</p>
+      <h1>Our Menu</h1>
+      <p class="intro">Familiar favorites, a little curiosity, and something for everyone.</p>
+      <div class="category-index hidden-xs" aria-label="Menu categories">
+        <a href="#chicken">01 / Chicken</a><a href="#beef">02 / Beef</a><a href="#sushi">03 / Sushi</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <section id="chicken" class="menu-section" aria-labelledby="chicken-title">
+          <div class="section-top"><span class="section-number">01</span><span class="section-label">FROM THE KITCHEN</span></div>
+          <h2 id="chicken-title" class="text-center">Chicken</h2>
+          <p class="section-intro text-center">Golden, tender, and made to bring everyone to the table.</p>
+          <div class="row dish-row">
+            <div class="col-sm-6"><article class="dish"><h3>Lemon &amp; Herb Chicken <span>$16</span></h3><p>Grilled chicken marinated with lemon zest, garlic, and garden herbs. Served with roasted potatoes and seasonal vegetables, this is a bright, comforting plate with a crisp finish.</p></article></div>
+            <div class="col-sm-6"><article class="dish"><h3>Crispy Chicken Sandwich <span>$13</span></h3><p>A golden chicken fillet with crunchy slaw, pickles, and house sauce in a toasted bun. A side of seasoned fries makes it a generous lunch or a relaxed evening favorite.</p></article></div>
+          </div>
+          <div class="row dish-row">
+            <div class="col-sm-6"><article class="dish"><h3>Smoky Chicken Bowl <span>$15</span></h3><p>Smoky grilled chicken over warm rice, with sweet corn, fresh greens, and a creamy yogurt dressing. Every spoonful brings together tender meat, a little crunch, and a gentle touch of spice.</p></article></div>
+            <div class="col-sm-6"><article class="dish"><h3>Roast Chicken &amp; Greens <span>$17</span></h3><p>Slow-roasted chicken with a simple green salad and warm pan juices. The skin is crisp, the meat stays juicy, and a slice of fresh bread is perfect for the last little bit of sauce.</p></article></div>
+          </div>
+          <p class="kitchen-note">At our table, simple ingredients get the attention they deserve. Our chicken dishes balance warm, savory flavors with fresh vegetables and bright dressings. Choose something crisp, something grilled, or a comforting roast; each plate is prepared as a complete meal, with sides selected to complement the main ingredient.</p>
+          <a class="back-link" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </section>
+      </div>
+      <div class="col-xs-12">
+        <section id="beef" class="menu-section" aria-labelledby="beef-title">
+          <div class="section-top"><span class="section-number">02</span><span class="section-label">OFF THE GRILL</span></div>
+          <h2 id="beef-title" class="text-center">Beef</h2>
+          <p class="section-intro text-center">Rich flavors, slow moments, and classics worth coming back for.</p>
+          <div class="row dish-row">
+            <div class="col-sm-6"><article class="dish"><h3>The House Burger <span>$16</span></h3><p>A grilled beef patty, cheddar, tomato, lettuce, and our house sauce on a toasted bun. Served with crisp fries, it is a familiar favorite built around a satisfying balance of texture and flavor.</p></article></div>
+            <div class="col-sm-6"><article class="dish"><h3>Pepper Steak <span>$24</span></h3><p>Seared steak with cracked black pepper, roasted potatoes, and seasonal greens. A smooth pepper sauce adds warmth without overpowering the flavor of the beef.</p></article></div>
+          </div>
+          <div class="row dish-row">
+            <div class="col-sm-6"><article class="dish"><h3>Slow-Braised Beef <span>$21</span></h3><p>Tender beef cooked slowly with onions, carrots, and a savory sauce, served over creamy mashed potatoes. This is the kind of generous, warming dish that invites you to take your time.</p></article></div>
+            <div class="col-sm-6"><article class="dish"><h3>Beef &amp; Rice Bowl <span>$17</span></h3><p>Thinly sliced beef with steamed rice, crisp vegetables, and a light sesame glaze. Finished with spring onions, it pairs the richness of the grill with a fresh, lively crunch.</p></article></div>
+          </div>
+          <p class="kitchen-note">Our grill menu is about depth of flavor and thoughtful accompaniments. Roasted vegetables, warm potatoes, and fresh greens give every dish its own character. Whether you prefer a casual burger or a slowly braised plate, there is room at the table for both everyday favorites and a more leisurely dinner.</p>
+          <a class="back-link" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </section>
+      </div>
+      <div class="col-xs-12">
+        <section id="sushi" class="menu-section" aria-labelledby="sushi-title">
+          <div class="section-top"><span class="section-number">03</span><span class="section-label">FRESH &amp; ROLLED</span></div>
+          <h2 id="sushi-title" class="text-center">Sushi</h2>
+          <p class="section-intro text-center">Delicate rolls, fresh contrasts, and a different kind of comfort.</p>
+          <div class="row dish-row">
+            <div class="col-sm-6"><article class="dish"><h3>Salmon Avocado Roll <span>$14</span></h3><p>Salmon and creamy avocado wrapped with seasoned rice and nori. A light garnish of sesame seeds adds a gentle nuttiness while keeping the clean flavors at the center of the plate.</p></article></div>
+            <div class="col-sm-6"><article class="dish"><h3>Crispy Shrimp Roll <span>$15</span></h3><p>Crisp shrimp with cucumber, rice, and a light house dressing. The warm crunch of the shrimp and the cool freshness of cucumber make this an inviting choice for anyone exploring the menu.</p></article></div>
+          </div>
+          <div class="row dish-row">
+            <div class="col-sm-6"><article class="dish"><h3>Garden Roll <span>$11</span></h3><p>Cucumber, avocado, and carrot rolled with seasoned rice and nori. Fresh vegetables bring color and texture to a simple, satisfying roll that is just as enjoyable on its own as it is to share.</p></article></div>
+            <div class="col-sm-6"><article class="dish"><h3>Chef's Roll Selection <span>$23</span></h3><p>A selection of our favorite rolls arranged for sharing. It is a little journey through the sushi menu, combining creamy, crisp, and fresh elements in one varied and welcoming plate.</p></article></div>
+          </div>
+          <p class="kitchen-note">Sushi is a balance of texture, temperature, and carefully chosen ingredients. Our rolls bring together seasoned rice, fresh fillings, and simple finishing touches. Pick a favorite or share a selection with the table. Please tell your server about any food allergies before ordering; several dishes contain fish, shellfish, soy, or sesame.</p>
+          <a class="back-link" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="container site-footer"><span>Food, LLC</span><p>A place for good food &amp; good company.</p><a href="#top">Back to top ↑</a></footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
